@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uiux_designer_portfolio/static/css/main.b9f760e7.css",
-    "main.js": "/uiux_designer_portfolio/static/js/main.699459db.js",
+    "main.js": "/uiux_designer_portfolio/static/js/main.a9d106d1.js",
     "static/js/453.e9ebb2d5.chunk.js": "/uiux_designer_portfolio/static/js/453.e9ebb2d5.chunk.js",
     "static/media/landingImage.jpg": "/uiux_designer_portfolio/static/media/landingImage.ce8eb185d9a451dbfe34.jpg",
     "static/media/comp3ani.gif": "/uiux_designer_portfolio/static/media/comp3ani.c0ce30be5785e6189451.gif",
@@ -17,11 +17,11 @@
     "static/media/NumPy.png": "/uiux_designer_portfolio/static/media/NumPy.a8e574488c66a97cb043.png",
     "index.html": "/uiux_designer_portfolio/index.html",
     "main.b9f760e7.css.map": "/uiux_designer_portfolio/static/css/main.b9f760e7.css.map",
-    "main.699459db.js.map": "/uiux_designer_portfolio/static/js/main.699459db.js.map",
+    "main.a9d106d1.js.map": "/uiux_designer_portfolio/static/js/main.a9d106d1.js.map",
     "453.e9ebb2d5.chunk.js.map": "/uiux_designer_portfolio/static/js/453.e9ebb2d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9f760e7.css",
-    "static/js/main.699459db.js"
+    "static/js/main.a9d106d1.js"
   ]
 }
