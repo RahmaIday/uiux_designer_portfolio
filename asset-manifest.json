@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/uiux_designer_portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/uiux_designer_portfolio/static/js/main.d35c721b.js",
+    "main.css": "/uiux_designer_portfolio/static/css/main.c1473773.css",
+    "main.js": "/uiux_designer_portfolio/static/js/main.f66fe79a.js",
     "static/js/453.e9ebb2d5.chunk.js": "/uiux_designer_portfolio/static/js/453.e9ebb2d5.chunk.js",
-    "static/media/logo.svg": "/uiux_designer_portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/landingImage.jpg": "/uiux_designer_portfolio/static/media/landingImage.ce8eb185d9a451dbfe34.jpg",
+    "static/media/comp3ani.gif": "/uiux_designer_portfolio/static/media/comp3ani.c0ce30be5785e6189451.gif",
+    "static/media/MovieProjectImage.png": "/uiux_designer_portfolio/static/media/MovieProjectImage.0f9483263386af4f9426.png",
+    "static/media/GitHub_logo.png": "/uiux_designer_portfolio/static/media/GitHub_logo.00c601f1724a126c1cbd.png",
+    "static/media/scikit.png": "/uiux_designer_portfolio/static/media/scikit.06863c746c03e3c0a46e.png",
+    "static/media/life_expectancy.png": "/uiux_designer_portfolio/static/media/life_expectancy.ce150b20843061c07015.png",
+    "static/media/linkedin-icon.png": "/uiux_designer_portfolio/static/media/linkedin-icon.43461dbc49cc10acb250.png",
+    "static/media/sql-icon.jpg": "/uiux_designer_portfolio/static/media/sql-icon.0090a77e30cd431e1988.jpg",
+    "static/media/RMITLOGO.png": "/uiux_designer_portfolio/static/media/RMITLOGO.0b13effad633d6251c5c.png",
+    "static/media/logo.png": "/uiux_designer_portfolio/static/media/logo.fb94cdaf3dc29f0c3892.png",
+    "static/media/seaborn.png": "/uiux_designer_portfolio/static/media/seaborn.8beaa10d8072e114e5ed.png",
+    "static/media/NumPy.png": "/uiux_designer_portfolio/static/media/NumPy.a8e574488c66a97cb043.png",
+    "static/media/projects-icon.svg": "/uiux_designer_portfolio/static/media/projects-icon.97a6f347a533ecb5d1de1dd3b0a6b460.svg",
     "index.html": "/uiux_designer_portfolio/index.html",
-    "main.f855e6bc.css.map": "/uiux_designer_portfolio/static/css/main.f855e6bc.css.map",
-    "main.d35c721b.js.map": "/uiux_designer_portfolio/static/js/main.d35c721b.js.map",
+    "main.c1473773.css.map": "/uiux_designer_portfolio/static/css/main.c1473773.css.map",
+    "main.f66fe79a.js.map": "/uiux_designer_portfolio/static/js/main.f66fe79a.js.map",
     "453.e9ebb2d5.chunk.js.map": "/uiux_designer_portfolio/static/js/453.e9ebb2d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.d35c721b.js"
+    "static/css/main.c1473773.css",
+    "static/js/main.f66fe79a.js"
   ]
 }
