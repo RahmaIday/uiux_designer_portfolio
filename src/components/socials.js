@@ -14,13 +14,8 @@ function Socials() {
     };
 
     return (
+        <div>
         <div className='socials-div'>
-            <img
-                alt='github'
-                className='socials-logo'
-                src={GITLOGO}
-                onClick={openGithub} 
-            />
             <img
                 alt='Linked In'
                 className='socials-logo'
@@ -28,6 +23,9 @@ function Socials() {
                 onClick={openLinkedIn}
             />
         </div>
+        <br></br>
+        </div>
+        
     );
 }
 

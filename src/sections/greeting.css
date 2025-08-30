@@ -1,106 +1,144 @@
 .greeting-main {
-    display: flex;
-    width: 90%;
-    padding: 20px 10px;
-    margin: 0 auto;
-    margin-top: 2rem;
-  }
+  display: flex;
+  gap: 5vw;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
   
-  .greeting-text-div {
-    flex: 1;
-  }
-  
-  .greeting-image-div {
-    max-width: 40%;
-    height: auto;
-  }
-  
-  .data-image {
-    max-width: 100%;
-    height: auto; 
-  }
-  
+.greeting-text-div {
+  flex: 1;
+}
+
+.greeting-image-div {
+  max-width: 50%;
+  height: auto;
+}
+
+.data-image {
+  max-width: 100%;
+  height: auto; 
+}
+
+.greeting-text {
+  font-size: 50px;
+  line-height: 1.1;
+}
+
+.greeting-text-p {
+  font-size: 20px;
+  line-height: 40px;
+  color: #666;
+}
+
+
+/* Media Query */
+@media (max-width: 1480px) {
   .greeting-text {
-    font-size: 70px;
-    line-height: 1.1;
+    font-size: 50px;
   }
-  
   .greeting-text-p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  /* .button-greeting-div {
+    justify-content: space-around;
+  } */
+  .greeting-text {
     font-size: 30px;
-    line-height: 40px;
-    color: #666;
+    text-align: center;
   }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+  .greeting-image-div {
+    margin: 0 auto;
+    max-width: 70%;
+  }
+}
 
 
-  /* Media Query */
-  @media (max-width: 1480px) {
-    .greeting-text {
-      font-size: 50px;
-    }
-    .greeting-text-p {
-      font-size: 20px;
-    }
+.wave-img {
+  height: 1em;
+  width: 1em;
+  margin: 0px 0.05em 0px 0.2em;
+  vertical-align: -0.1em;
+}
+
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+  z-index: 1;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
   }
-  @media (max-width: 768px) {
-    /* .button-greeting-div {
-      justify-content: space-around;
-    } */
-    .greeting-text {
-      font-size: 30px;
-      text-align: center;
-    }
-    .greeting-text-p {
-      font-size: 16px;
-      line-height: normal;
-      text-align: center;
-    }
-    .greeting-main {
-      display: block;
-    }
-    .greeting-image-div {
-      margin: 0 auto;
-      max-width: 70%;
-    }
+  10% {
+    transform: rotate(-10deg);
   }
-  
-  
-  .wave-img {
-    height: 1em;
-    width: 1em;
-    margin: 0px 0.05em 0px 0.2em;
-    vertical-align: -0.1em;
+  20% {
+    transform: rotate(12deg);
   }
-  
-  .wave-emoji {
-    animation-duration: 1.8s;
-    animation-iteration-count: infinite;
-    animation-name: wave;
-    display: inline-block;
-    transform-origin: 70% 70%;
-    z-index: 1;
+  30% {
+    transform: rotate(-10deg);
   }
-  
-  @keyframes wave {
-    0% {
-      transform: rotate(0deg);
-    }
-    10% {
-      transform: rotate(-10deg);
-    }
-    20% {
-      transform: rotate(12deg);
-    }
-    30% {
-      transform: rotate(-10deg);
-    }
-    40% {
-      transform: rotate(9deg);
-    }
-    50% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
+  40% {
+    transform: rotate(9deg);
   }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
   
+/* Container */
+.greeting-image-div .image-card {
+  position: relative;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Keep images responsive */
+.greeting-image-div .image-card .data-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Remove overlay — just text on image */
+.greeting-image-div .image-title {
+  position: absolute;
+  left: 0;   /* left aligned */
+  bottom: 0;
+  padding: clamp(0.5rem, 2vw, 1.25rem);
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6); /* keeps text visible on any image */
+  font-size: clamp(1rem, 2.6vw, 2rem);
+  line-height: 1.2;
+  z-index: 1;
+}
+
+.description{
+  font-size: clamp(0.2rem, 1.8vw, 1.2rem);
+  line-height: 1.4;
+  font-weight: 400;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
