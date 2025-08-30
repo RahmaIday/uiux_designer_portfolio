@@ -1,6 +1,6 @@
 import landingImage from '../assets/images/landingImage.jpg'
 import wave from '../assets/images/wave.png'
-import './greeting.css';
+import './Greeting.css';
 import Socials from '../components/socials';
 import {Fade} from "react-awesome-reveal";
 
@@ -20,6 +20,9 @@ function Greeting(){
                     </span>
                 </h1>
                 <div className='greeting-text-p'>
+                A dedicated <b>UI/UX designer</b> passionate
+                about translating <b>user behaviours</b> into intuitive designs  
+                and curating <b>digital platforms</b> that align user needs with business goals.
                 </div>
                 <br></br>
                 <Socials></Socials>

@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './sections/Navbar';
 import Education from './sections/education';
-import Greeting from './sections/greeting';
+import Greeting from './sections/Greeting';
 import Projects from './sections/projects';
 import Skills from './sections/skills';
 import Footer from './sections/footer';

@@ -1,6 +1,6 @@
 const Details = {
     Name: "Rahma Idayathulla",
-    Intro: "Hi "
+    Position: "UI/UX Designer"
 }
 
 export default Details;

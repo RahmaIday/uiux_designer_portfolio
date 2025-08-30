@@ -8,7 +8,10 @@ function NavBar() {
     return (
         <div className="navbar-container">
             <img src={Logo} className='logo-image' alt='Nav-logo' />
-            <div className='name'>{Details.Name}</div>
+            <div>
+                <div className='name'>{Details.Name.toUpperCase()}</div>
+                <div className='position'>{Details.Position.toUpperCase()}</div>
+            </div>
         </div>
     );
 }
