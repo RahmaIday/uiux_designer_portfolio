@@ -4,6 +4,7 @@ import wave from '../assets/images/wave.png'
 import './Greeting.css';
 import Socials from '../components/socials';
 import {Fade} from "react-awesome-reveal";
+import { Link } from 'react-router-dom';
 
 function Greeting(){
     return(
@@ -29,7 +30,7 @@ function Greeting(){
                 <Socials />
             </div>
             <div className='greeting-image-div'>
-                <a href="/classy" target="_blank" rel="noopener noreferrer">
+                <Link to="/uiux_designer_portfolio/classy">
                     <div className="image-card">
                     <img alt='Project 1' className='data-image' src={project1Image}/>
                     <div className="image-title">
@@ -39,9 +40,9 @@ function Greeting(){
                         </p>
                     </div>
                     </div>
-                </a>
+                </Link>
 
-                <a href="/tutoring-console" target="_blank" rel="noopener noreferrer">
+                <Link to="/uiux_designer_portfolio/tutoring-console">
                     <div className="image-card">
                     <img alt='Project 2' className='data-image' src={project2Image}/>
                     <div className="image-title">
@@ -51,7 +52,7 @@ function Greeting(){
                         </p>
                     </div>
                     </div>
-                </a>
+                </Link>
             </div>
 
 

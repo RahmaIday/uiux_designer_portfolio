@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LandingPage from './Pages/LandingPage';
 import ClassyPage from './Pages/ClassyPage';
-import TutoringConsolePage from './Pages/TutoringConsolePage';
+import TutoringConsolePage from './Pages/TutoringPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
