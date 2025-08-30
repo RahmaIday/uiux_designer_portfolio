@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uiux_designer_portfolio/static/css/main.c1473773.css",
-    "main.js": "/uiux_designer_portfolio/static/js/main.f66fe79a.js",
+    "main.css": "/uiux_designer_portfolio/static/css/main.688570aa.css",
+    "main.js": "/uiux_designer_portfolio/static/js/main.6378aac0.js",
     "static/js/453.e9ebb2d5.chunk.js": "/uiux_designer_portfolio/static/js/453.e9ebb2d5.chunk.js",
     "static/media/landingImage.jpg": "/uiux_designer_portfolio/static/media/landingImage.ce8eb185d9a451dbfe34.jpg",
     "static/media/comp3ani.gif": "/uiux_designer_portfolio/static/media/comp3ani.c0ce30be5785e6189451.gif",
@@ -15,14 +15,13 @@
     "static/media/logo.png": "/uiux_designer_portfolio/static/media/logo.fb94cdaf3dc29f0c3892.png",
     "static/media/seaborn.png": "/uiux_designer_portfolio/static/media/seaborn.8beaa10d8072e114e5ed.png",
     "static/media/NumPy.png": "/uiux_designer_portfolio/static/media/NumPy.a8e574488c66a97cb043.png",
-    "static/media/projects-icon.svg": "/uiux_designer_portfolio/static/media/projects-icon.97a6f347a533ecb5d1de1dd3b0a6b460.svg",
     "index.html": "/uiux_designer_portfolio/index.html",
-    "main.c1473773.css.map": "/uiux_designer_portfolio/static/css/main.c1473773.css.map",
-    "main.f66fe79a.js.map": "/uiux_designer_portfolio/static/js/main.f66fe79a.js.map",
+    "main.688570aa.css.map": "/uiux_designer_portfolio/static/css/main.688570aa.css.map",
+    "main.6378aac0.js.map": "/uiux_designer_portfolio/static/js/main.6378aac0.js.map",
     "453.e9ebb2d5.chunk.js.map": "/uiux_designer_portfolio/static/js/453.e9ebb2d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1473773.css",
-    "static/js/main.f66fe79a.js"
+    "static/css/main.688570aa.css",
+    "static/js/main.6378aac0.js"
   ]
 }
