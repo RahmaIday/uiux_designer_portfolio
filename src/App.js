@@ -8,9 +8,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage/>} />
-        <Route path="/classy" element={<ClassyPage />} />
-        <Route path="/tutoring-console" element={<TutoringConsolePage />} />
+        <Route path="/uiux_designer_portfolio/" element={<LandingPage/>} />
+        <Route path="/uiux_designer_portfolio/classy" element={<ClassyPage />} />
+        <Route path="/uiux_designer_portfolio/tutoring-console" element={<TutoringConsolePage />} />
       </Routes>
     </Router>
   );
