@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/uiux_designer_portfolio/static/css/main.f855e6bc.css",
+    "main.js": "/uiux_designer_portfolio/static/js/main.d35c721b.js",
+    "static/js/453.e9ebb2d5.chunk.js": "/uiux_designer_portfolio/static/js/453.e9ebb2d5.chunk.js",
+    "static/media/logo.svg": "/uiux_designer_portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/uiux_designer_portfolio/index.html",
+    "main.f855e6bc.css.map": "/uiux_designer_portfolio/static/css/main.f855e6bc.css.map",
+    "main.d35c721b.js.map": "/uiux_designer_portfolio/static/js/main.d35c721b.js.map",
+    "453.e9ebb2d5.chunk.js.map": "/uiux_designer_portfolio/static/js/453.e9ebb2d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.d35c721b.js"
+  ]
+}
