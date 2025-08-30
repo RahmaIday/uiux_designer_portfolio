@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LandingPage from './Pages/LandingPage';
+import ClassyPage from './Pages/ClassyPage';
+import TutoringConsolePage from './Pages/TutoringConsolePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/uiux_designer_portfolio/" element={<LandingPage/>} />
+        <Route path="/uiux_designer_portfolio/classy" element={<ClassyPage />} />
+        <Route path="/uiux_designer_portfolio/tutoring-console" element={<TutoringConsolePage />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
