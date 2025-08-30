@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uiux_designer_portfolio/static/css/main.a4a93c2c.css",
-    "main.js": "/uiux_designer_portfolio/static/js/main.56a21a8f.js",
+    "main.css": "/uiux_designer_portfolio/static/css/main.e8009580.css",
+    "main.js": "/uiux_designer_portfolio/static/js/main.0a7f2d8d.js",
     "static/js/453.e9ebb2d5.chunk.js": "/uiux_designer_portfolio/static/js/453.e9ebb2d5.chunk.js",
     "static/media/project1.png": "/uiux_designer_portfolio/static/media/project1.acfa1f3819bccf32f30e.png",
     "static/media/project2.png": "/uiux_designer_portfolio/static/media/project2.83bc875001eafe4f3140.png",
@@ -9,7 +9,12 @@
     "static/media/MovieProjectImage.png": "/uiux_designer_portfolio/static/media/MovieProjectImage.0f9483263386af4f9426.png",
     "static/media/GitHub_logo.png": "/uiux_designer_portfolio/static/media/GitHub_logo.00c601f1724a126c1cbd.png",
     "static/media/scikit.png": "/uiux_designer_portfolio/static/media/scikit.06863c746c03e3c0a46e.png",
+    "static/media/classy-wireframe.png": "/uiux_designer_portfolio/static/media/classy-wireframe.36986fd8696b59f714a6.png",
     "static/media/life_expectancy.png": "/uiux_designer_portfolio/static/media/life_expectancy.ce150b20843061c07015.png",
+    "static/media/tw3.png": "/uiux_designer_portfolio/static/media/tw3.2e85b918fca7ecd42000.png",
+    "static/media/tw2.png": "/uiux_designer_portfolio/static/media/tw2.b3a66b9a7b00200a335e.png",
+    "static/media/w2.png": "/uiux_designer_portfolio/static/media/w2.63484084e4e9dd5c23b2.png",
+    "static/media/tw1.png": "/uiux_designer_portfolio/static/media/tw1.fb69e27dda3edb1c076a.png",
     "static/media/linkedin-icon.png": "/uiux_designer_portfolio/static/media/linkedin-icon.43461dbc49cc10acb250.png",
     "static/media/sql-icon.jpg": "/uiux_designer_portfolio/static/media/sql-icon.0090a77e30cd431e1988.jpg",
     "static/media/RMITLOGO.png": "/uiux_designer_portfolio/static/media/RMITLOGO.0b13effad633d6251c5c.png",
@@ -17,12 +22,12 @@
     "static/media/logo.png": "/uiux_designer_portfolio/static/media/logo.176bb791760329ceb339.png",
     "static/media/NumPy.png": "/uiux_designer_portfolio/static/media/NumPy.a8e574488c66a97cb043.png",
     "index.html": "/uiux_designer_portfolio/index.html",
-    "main.a4a93c2c.css.map": "/uiux_designer_portfolio/static/css/main.a4a93c2c.css.map",
-    "main.56a21a8f.js.map": "/uiux_designer_portfolio/static/js/main.56a21a8f.js.map",
+    "main.e8009580.css.map": "/uiux_designer_portfolio/static/css/main.e8009580.css.map",
+    "main.0a7f2d8d.js.map": "/uiux_designer_portfolio/static/js/main.0a7f2d8d.js.map",
     "453.e9ebb2d5.chunk.js.map": "/uiux_designer_portfolio/static/js/453.e9ebb2d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4a93c2c.css",
-    "static/js/main.56a21a8f.js"
+    "static/css/main.e8009580.css",
+    "static/js/main.0a7f2d8d.js"
   ]
 }
