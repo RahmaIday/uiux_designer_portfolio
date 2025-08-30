@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './skills.css';
 import './section.css';
-import Fade from "react-reveal";
+import { Fade } from 'react-awesome-reveal';
 import compani from '../assets/images/comp3ani.gif'
 import skillDetails from "../details/skillDetails";
 

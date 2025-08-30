@@ -2,7 +2,7 @@ import React from "react";
 import './education.css';
 import './section.css';
 import RMITLogo from '../assets/images/RMITLOGO.png';
-import {Fade, Slide} from "react-reveal";
+import {Fade, Slide} from "react-awesome-reveal";
 
 function Education(){
 

@@ -2,7 +2,7 @@ import landingImage from '../assets/images/landingImage.jpg'
 import wave from '../assets/images/wave.png'
 import './greeting.css';
 import Socials from '../components/socials';
-import { Fade } from 'react-reveal';
+import {Fade} from "react-awesome-reveal";
 
 function Greeting(){
     return(
