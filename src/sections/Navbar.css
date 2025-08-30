@@ -1,0 +1,15 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: clamp(0.5rem, 2vw, 2rem);
+  width: 100%;
+}
+
+.logo-image {
+  width: clamp(2rem, 6vw, 5rem);
+  height: auto;
+}
+
+.name {
+  font-size: clamp(1rem, 3vw, 2.5rem);
+}
