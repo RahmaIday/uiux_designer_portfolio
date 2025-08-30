@@ -1,0 +1,28 @@
+.footer-main-div{
+    background-color: #EAEDF0; 
+    display: flex;
+    padding: 1rem;
+    margin-top: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-credits{
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+/* Media Query */
+@media (max-width: 1480px) {
+    .footer-credits{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-credits{
+        font-size: 13px;
+        line-height: 1.8em;
+
+    }
+}
