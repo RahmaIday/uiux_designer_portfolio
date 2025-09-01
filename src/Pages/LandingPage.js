@@ -1,13 +1,11 @@
 import NavBar from '../sections/Navbar';
 import Education from '../sections/education';
 import Greeting from '../sections/Greeting';
-import Projects from '../sections/projects';
-import Skills from '../sections/skills';
-import Footer from '../sections/footer';
+import './LandingPage.css';
 
 function LandingPage() {
   return (
-    <div className="App">
+    <div className="layout-container">
       <NavBar></NavBar>
       <Greeting></Greeting>
       <Education></Education>

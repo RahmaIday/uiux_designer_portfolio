@@ -1,9 +1,7 @@
 .greeting-main {
   display: flex;
-  gap: 5vw;
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0 auto;
+  justify-content: space-between;
+  width: 100%;
   margin-top: 2rem;
 }
   
@@ -12,6 +10,7 @@
 }
 
 .greeting-image-div {
+  padding-right: clamp(1rem, 3vw, 2rem);;
   max-width: 50%;
   height: auto;
 }

@@ -8,7 +8,6 @@ function Education(){
 
     return(
         <div className='section-main-div'>
-            <h1 id="education" className='section-title'>Education</h1>
             <Fade left duration={1000}>
             <div className="education-container">
                 <img alt="rmit logo" src={RMITLogo} className="education-img"></img>

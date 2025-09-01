@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 
 function Greeting(){
     return(
-        <Fade bottom duration={1000} distance="40px">
         <div className='greeting-main'>
             <div className='greeting-text-div'>
                 <h1 className='greeting-text'>Hello, I'm Rahma 
@@ -57,7 +56,6 @@ function Greeting(){
 
 
         </div>
-        </Fade>
     )
 }
 
